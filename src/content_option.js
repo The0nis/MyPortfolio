@@ -15,7 +15,7 @@ const logotext = "MICHAEL";
 const meta = {
   title: "Michael Oni",
   description:
-    "I’m Michael Oni _ Frontend Web devloper,currently working in Nigeria",
+    "I’m Michael Oni _ Frontend Web developer, currently working in Nigeria",
 };
 
 const introdata = {
