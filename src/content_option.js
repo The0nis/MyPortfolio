@@ -1,6 +1,6 @@
-import imgone from '../src/assest/porta.png';
-import imgTwo from '../src/assest/port2.png';
-import imgThree from '../src/assest/port3.png';
+import imgone from '../src/assest/monisocial.png';
+import imgTwo from '../src/assest/monicommerce.png';
+import imgThree from '../src/assest/monieccomerce2.png';
 import imgFour from '../src/assest/port4.png';
 import imgFive from '../src/assest/port5.png';
 import imgSix from '../src/assest/port6.png';
@@ -26,7 +26,7 @@ const introdata = {
     third: "I develop Responsive, Scalable Websites",
   },
   description:
-    "Frontend web developer and open-source enthusiast with good coding practices, Pair-programming and remote work. Fluent in several languages, frameworks, and technologies, capable of ramping up quickly and efficiently. A result-oriented Individual, astute with a solid Technical Operations background. Deep familiarity in ICT and digital forensics, with a passion for creating elegant and performant web applications. Fixed over 60 issues and Built over 5 web applications actively used in ZOJATECH Limited",
+    "Frontend web developer and open-source enthusiast with strong coding skills and experience in remote pair-programming. Proficient in JavaScript, ReactJs, Redux, HTML5, CSS3, Bootstrap, Tailwind, Context Api, Stripe, Sanity, Git and so on. Strong background in ICT and digital forensics. Proven ability to quickly learn and adapt to new technologies.",
   your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -82,6 +82,22 @@ const skills = [
     name: "Tailwind",
     value: 80,
   },
+  {
+    name: "Redux",
+    value: 80,
+  },
+  {
+    name: "Style Component",
+    value: 90,
+  },
+  {
+    name: "Sass",
+    value: 90,
+  },
+  {
+    name: "Git and Github",
+    value: 92,
+  },
 ];
 
 const services = [
@@ -106,32 +122,32 @@ const dataportfolio = [
   {
     img: imgone,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniEcommerce (2023). A Full stack Ecommerce web application built using React Js, Context Api, Vanilla CSS, Stripe, Sanity, Git, Vercel.",
+    link: "https://peppy-pithivier-531e13.netlify.app/",
   },
   {
     img: imgTwo,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniSocial (2023). A Full stack social media web application built with React Js, CSS, HTML, Git, Nectlify, Tailwind, Mansory, Google Login, Sanity ",
+    link: "https://moni-ecommerce-stripe.vercel.app/",
   },
   {
     img: imgThree,
     desctiption:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://moni-ecommerce-stripe.vercel.app/",
   },
   {
     img: imgFour,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniDisney (2022). A movie streaming web application. React JS, CSS, HTML, Git, Vercel.",
+    link: "http://monidisney.vercel.app/",
   },
   {
     img: imgFive,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniTelsa (2022).  Cloning Telsa web app. HTML, CSS, Styled Components, JS, Redux",
+    link: "http://moni-tesla.vercel.app/",
   },
   {
     img: imgSix,
@@ -161,8 +177,8 @@ const dataportfolio = [
   {
     img: imgTen,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniFoo (2022). A mini online food web application, that allow users to order for food. Built with React, Fire base, JS",
+    link: "https://monifoo.vercel.app/",
   },
   {
     img: imgEleven,
@@ -182,7 +198,7 @@ const contactConfig = {
   YOUR_EMAIL: "onisamuelmichael@gmail.com",
   YOUR_FONE: "(234) 7081575024",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "Frontend web developer and open-source enthusiast with strong coding skills and experience in remote pair-programming ",
 
   YOUR_SERVICE_ID: "service_fltxe6e",
   YOUR_TEMPLATE_ID: "contact_form",
