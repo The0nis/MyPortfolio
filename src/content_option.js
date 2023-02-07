@@ -1,5 +1,5 @@
 import imgone from '../src/assest/monisocial.png';
-import imgTwo from '../src/assest/monicommerce.png';
+import imgTwo from '../src/assest/moniecommerce.png';
 import imgThree from '../src/assest/monieccomerce2.png';
 import imgFour from '../src/assest/port4.png';
 import imgFive from '../src/assest/port5.png';
