@@ -1,14 +1,15 @@
-import imgone from '../src/assest/monisocial.png';
-import imgTwo from '../src/assest/moniecommerce.png';
-import imgThree from '../src/assest/monieccomerce2.png';
-import imgFour from '../src/assest/port2.png';
-import imgFive from '../src/assest/port5.png';
-import imgSix from '../src/assest/port6.png';
-import imgSeven from '../src/assest/port7.png';
-import imgEight from '../src/assest/port8.png';
-import imgNine from '../src/assest/port9.png';
-import imgTen from '../src/assest/port4.png';
-import imgEleven from '../src/assest/port11.png';
+import imgone from '../src/assest/monisocial.jpg';
+import imgTwo from '../src/assest/moniecommerce.jpg';
+import imgThree from '../src/assest/monieccomerce2.jpg';
+import imgFour from '../src/assest/port2.jpg';
+import imgFive from '../src/assest/port5.jpg';
+import imgSix from '../src/assest/port6.jpg';
+import imgSeven from '../src/assest/port7.jpg';
+import imgEight from '../src/assest/port8.jpg';
+import imgNine from '../src/assest/port9.jpg';
+import imgTen from '../src/assest/port4.jpg';
+import imgEleven from '../src/assest/port11.jpg';
+import self from '../src/assest/self.png';
 
 
 const logotext = "MICHAEL";
@@ -27,7 +28,7 @@ const introdata = {
   },
   description:
     "Frontend web developer and open-source enthusiast with strong coding skills and experience in remote pair-programming. Proficient in JavaScript, ReactJs, Redux, HTML5, CSS3, Bootstrap, Tailwind, Context Api, Stripe, Sanity, Git and so on. Strong background in ICT and digital forensics. Proven ability to quickly learn and adapt to new technologies.",
-  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  your_img_url: self,
 };
 
 const dataabout = {
@@ -36,6 +37,11 @@ const dataabout = {
     "Frontend web developer and open-source enthusiast with good coding practices, Pair-programming and remote work. Fluent in several languages, frameworks, and technologies, capable of ramping up quickly and efficiently. A result-oriented Individual, astute with a solid Technical Operations background. Deep familiarity in ICT and digital forensics, with a passion for creating elegant and performant web applications. Fixed over 60 issues and Built over 5 web applications actively used in ZOJATECH Limited",
 };
 const worktimeline = [
+  {
+    jobtitle: "Software Engineer",
+    where: "Huawei Limited",
+    date: "2023",
+  },
   {
     jobtitle: "Project Lead Developer (Project Owner)",
     where: "ZOJATECH LIMITED",
@@ -57,6 +63,14 @@ const skills = [
   {
     name: "Reactjs",
     value: 90,
+  },
+  {
+    name: "NextJs",
+    value: 95,
+  },
+  {
+    name: "TypeScript",
+    value: 85,
   },
   {
     name: "Javascript",
