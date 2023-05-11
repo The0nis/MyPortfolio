@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import { motion } from "framer-motion";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -40,7 +41,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your messege",
             variant: "success",
             show: true,
           });
@@ -74,7 +75,15 @@ export const ContactUs = () => {
         </Helmet>
         <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <motion.h1 className="display-4 mb-4"
+               initial={{ opacity: 0, x:"-10%"}}
+               animate={{ opacity: 1, x:"0%"}}
+               transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 1, ease: "easeOut"}}
+               whileInView={{ opacity: 0,}}
+               viewport={{ once: true }}
+               whileHover={{ skewX: 10 }}
+             whileTap={{ skewX: 10 }}
+            >Contact Me</motion.h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -93,8 +102,24 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
-            <address>
+            <motion.h3 className="color_sec py-4"
+              initial={{ opacity: 0, x:"-10%"}}
+              animate={{ opacity: 1, x:"0%"}}
+              transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 1.5, ease: "easeOut"}}
+              whileInView={{ opacity: 0,}}
+              viewport={{ once: true }}
+              whileHover={{ skewX: 10 }}
+            whileTap={{ skewX: 10 }}
+            >Get in touch</motion.h3>
+            <motion.address
+              initial={{ opacity: 0, x:"-10%"}}
+              animate={{ opacity: 1, x:"0%"}}
+              transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 2, ease: "easeOut"}}
+              whileInView={{ opacity: 0,}}
+              viewport={{ once: true }}
+              whileHover={{ skewX: 10 }}
+              whileTap={{ skewX: 10 }}
+            >
               <strong>Email:</strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
@@ -108,13 +133,27 @@ export const ContactUs = () => {
               ) : (
                 ""
               )}
-            </address>
-            <p>{contactConfig.description}</p>
+            </motion.address>
+            <motion.p
+              initial={{ opacity: 0, x:"-10%"}}
+              animate={{ opacity: 1, x:"0%"}}
+              transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 2.5, ease: "easeOut"}}
+              whileInView={{ opacity: 0,}}
+              viewport={{ once: true }}
+              whileHover={{ skewX: 10 }}
+              whileTap={{ skewX: 10 }}
+            >{contactConfig.description}</motion.p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
-                <Col lg="6" className="form-group">
+                <motion.Col lg="6" className="form-group"
+                  initial={{ opacity: 0, x:"1000%"}}
+                  animate={{ opacity: 1, x:"10%"}}
+                  transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 1.5, ease: "easeOut"}}
+                  whileInView={{ opacity: 0,}}
+                  viewport={{ once: true }}
+                >
                   <input
                     className="form-control"
                     id="name"
@@ -125,8 +164,14 @@ export const ContactUs = () => {
                     required
                     onChange={handleChange}
                   />
-                </Col>
-                <Col lg="6" className="form-group">
+                </motion.Col>
+                <motion.Col lg="6" className="form-group"
+                  initial={{ opacity: 0, x:"1000%"}}
+                  animate={{ opacity: 1, x:"20%"}}
+                  transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 2, ease: "easeOut"}}
+                  whileInView={{ opacity: 0,}}
+                  viewport={{ once: true }}
+                >
                   <input
                     className="form-control rounded-0"
                     id="email"
@@ -137,9 +182,9 @@ export const ContactUs = () => {
                     required
                     onChange={handleChange}
                   />
-                </Col>
+                </motion.Col>
               </Row>
-              <textarea
+              <motion.textarea
                 className="form-control rounded-0"
                 id="message"
                 name="message"
@@ -148,14 +193,25 @@ export const ContactUs = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-              ></textarea>
+                initial={{ opacity: 0, x:"-10%"}}
+               animate={{ opacity: 1, x:"0%"}}
+               transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 2.5, ease: "easeOut"}}
+               whileInView={{ opacity: 0,}}
+               viewport={{ once: true }}
+              ></motion.textarea>
               <br />
               <Row>
-                <Col lg="12" className="form-group">
+                <motion.Col lg="12" className="form-group"
+                  initial={{ opacity: 0, y:"990%"}}
+                  animate={{ opacity: 1, y:"0%", x:"20%"}}
+                  transition={{ duration: 1.5, type: 'spring', bounce: 0.07, delay: 3, ease: "easeOut"}}
+                  whileInView={{ opacity: 0,}}
+                  viewport={{ once: true }}
+                >
                   <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
-                </Col>
+                </motion.Col>
               </Row>
             </form>
           </Col>
