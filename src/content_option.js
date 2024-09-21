@@ -1,16 +1,13 @@
-import imgone from '../src/assest/monisocial.jpg';
-import imgTwo from '../src/assest/moniecommerce.jpg';
-import imgThree from '../src/assest/monieccomerce2.jpg';
-import imgFour from '../src/assest/port2.jpg';
-import imgFive from '../src/assest/port5.jpg';
-import imgSix from '../src/assest/port6.jpg';
-import imgSeven from '../src/assest/port7.jpg';
-import imgEight from '../src/assest/port8.jpg';
-import imgNine from '../src/assest/port9.jpg';
-import imgTen from '../src/assest/port4.jpg';
-import imgEleven from '../src/assest/port11.jpg';
-import self from '../src/assest/self.png';
-
+import transmit from "../src/assest/transmit.png";
+import ithng from "../src/assest/ithuk.png";
+import ithuk from "../src/assest/ithng.png";
+import revex from "../src/assest/revex.png";
+import phone from "../src/assest/phones.png";
+import smartsend from "../src/assest/smartsend.png";
+import imgThree from "../src/assest/monieccomerce2.jpg";
+import imgFour from "../src/assest/port2.jpg";
+import imgTen from "../src/assest/port4.jpg";
+import self from "../src/assest/self.png";
 
 const logotext = "MICHAEL";
 const meta = {
@@ -34,9 +31,14 @@ const introdata = {
 const dataabout = {
   title: "abit about my self",
   aboutme:
-    "Frontend web developer and open-source enthusiast with good coding practices, Pair-programming and remote work. Fluent in several languages, frameworks, and technologies, capable of ramping up quickly and efficiently. A result-oriented Individual, astute with a solid Technical Operations background. Deep familiarity in ICT and digital forensics, with a passion for creating elegant and performant web applications. Fixed over 60 issues and Built over 5 web applications actively used in ZOJATECH Limited",
+    "Frontend web developer and open-source enthusiast with good coding practices, Pair-programming and remote work. Fluent in several languages, frameworks, and technologies, capable of ramping up quickly and efficiently. A result-oriented Individual, astute with a solid Technical Operations background. Deep familiarity in ICT and digital forensics, with a passion for creating elegant and performant web applications. Fixed over 60 issues and Built over 5 web applications actively used in ZOJATECH Limited and Space Universe Africa.",
 };
 const worktimeline = [
+  {
+    jobtitle: "Software Engineer",
+    where: "Space Universe Africa",
+    date: "2023 - Present",
+  },
   {
     jobtitle: "Software Engineer",
     where: "Huawei Limited",
@@ -58,6 +60,25 @@ const worktimeline = [
     date: "2019",
   },
 ];
+const certifications = [
+  {
+    title: "ALX SOFTWARE ENGINEERING",
+    where:
+      "https://drive.google.com/file/d/1aKdjfhQGjMCwmyqlkEChIKU7cqx5qmML/view?usp=sharing",
+    date: "September, 2023",
+  },
+  {
+    title: "DEEP LEARNING AI",
+    where: "https://coursera.org/share/af5b8a5d9fa2b93fd7b030f73a9c83e1",
+    date: "December, 2023",
+  },
+  {
+    title: "ENTREPRENEURSHIP FOUNDATION",
+    where: "https://lnkd.in/d-b7EA5R hashtag#entrepreneurship.",
+    date: "December, 2023",
+  },
+ 
+];
 
 const skills = [
   {
@@ -70,11 +91,11 @@ const skills = [
   },
   {
     name: "TypeScript",
-    value: 85,
+    value: 90,
   },
   {
     name: "Javascript",
-    value: 87,
+    value: 90,
   },
   {
     name: "Python",
@@ -86,7 +107,7 @@ const skills = [
   },
   {
     name: "CSS3",
-    value: 90,
+    value: 96,
   },
   {
     name: "Bootstrap",
@@ -94,7 +115,7 @@ const skills = [
   },
   {
     name: "Tailwind",
-    value: 80,
+    value: 95,
   },
   {
     name: "Redux",
@@ -110,7 +131,7 @@ const skills = [
   },
   {
     name: "Git and Github",
-    value: 92,
+    value: 94,
   },
 ];
 
@@ -134,77 +155,62 @@ const services = [
 
 const dataportfolio = [
   {
-    img: imgone,
+    img: transmit,
     desctiption:
-      "MoniEcommerce (2023). A Full stack Ecommerce web application built using React Js, Context Api, Vanilla CSS, Stripe, Sanity, Git, Vercel.",
-    link: "https://peppy-pithivier-531e13.netlify.app/",
+      "ThisisTransmit (2024). A full stack web application built with GraphQL, Node Js, React JS, Vercel, AWS, Vanilla CSS, Styled Component, Chakra UI, Git and Github.",
+    link: "https://thisistransmit.com/",
   },
   {
-    img: imgTwo,
+    img: revex,
     desctiption:
-      "MoniSocial (2023). A Full stack social media web application built with React Js, CSS, HTML, Git, Nectlify, Tailwind, Mansory, Google Login, Sanity ",
-    link: "https://moni-ecommerce-stripe.vercel.app/",
+      "Revex (2024). A React.js-powered financial management app offering real-time insights, project budget tracking, and dynamic reports for smart decision-making. With a user-friendly interface and powerful features, Revex empowers businesses to thrive financially.",
+    link: "http://staging.revvex.io/",
   },
   {
     img: imgThree,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "A Full stack social media web application built with React Js, CSS, HTML, Git, Nectlify, Tailwind, Mansory, Google Login, Sanity",
     link: "https://moni-ecommerce-stripe.vercel.app/",
-  },
-  {
-    img: imgFour,
-    desctiption:
-      "MoniDisney (2022). A movie streaming web application. React JS, CSS, HTML, Git, Vercel.",
-    link: "http://monidisney.vercel.app/",
-  },
-  {
-    img: imgFive,
-    desctiption:
-      "MoniTelsa (2022).  Cloning Telsa web app. HTML, CSS, Styled Components, JS, Redux",
-    link: "http://moni-tesla.vercel.app/",
-  },
-  {
-    img: imgSix,
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
   },
 
   {
-    img: imgSeven,
+    img: ithng,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "ITH Horizons Nigeria (2024). ITH Horizons Nigeria official website. A full stack application built with Next Js, Tailwind, Material UI, Git and Github.",
+    link: "https://www.ithorizonsgroup.com/",
   },
   {
-    img: imgEight,
+    img: smartsend,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "SmartSend (2023) United Kingdom. A single-page application (SPA) web application built using Next Js, Vanilla CSS, Git, and Vercel. This project underscored my expertise in building performant web applications. ",
+    link: "https://www.smartsend.uk/",
   },
-  {
-    img: imgNine,
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
+
   {
     img: imgTen,
     desctiption:
       "MoniFoo (2022). A mini online food web application, that allow users to order for food. Built with React, Fire base, JS",
     link: "https://monifoo.vercel.app/",
   },
+
   {
-    img: imgEleven,
+    img: ithuk,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "ITH Horizons United Kingdom (2024). ITH Horizons United Kingdom official website. A web application built with Next Js, Tailwind, Material UI, Git and Github.",
+    link: "https://www.ithorizonsgroup.uk/",
   },
   {
-    img: imgSix,
+    img: phone,
     desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "MoniSocial (2023). A Full stack social media web application built with React Js, CSS, HTML, Git, Nectlify, Tailwind, Mansory, Google Login, Sanity ",
+    link: "https://moni-ecommerce-stripe.vercel.app/",
+  },
+
+  {
+    img: imgFour,
+    desctiption:
+      "MoniDisney (2022). A movie streaming web application. React JS, CSS, HTML, Git, Vercel.",
+    link: "http://monidisney.vercel.app/",
   },
 ];
 
@@ -236,4 +242,5 @@ export {
   contactConfig,
   socialprofils,
   logotext,
+  certifications
 };
