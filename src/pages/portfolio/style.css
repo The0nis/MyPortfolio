@@ -8,7 +8,7 @@
 }
 
 .po_item {
-    display: inline-block;
+    display: flex;
     width: 100%;
     text-align: center;
     margin: 0.5rem auto;
