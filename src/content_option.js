@@ -24,20 +24,20 @@ const introdata = {
     third: "I develop Responsive, Scalable Websites",
   },
   description:
-    "Frontend web developer and open-source enthusiast with strong coding skills and experience in remote pair-programming. Proficient in JavaScript, ReactJs, Redux, HTML5, CSS3, Bootstrap, Tailwind, Context Api, Stripe, Sanity, Git and so on. Strong background in ICT and digital forensics. Proven ability to quickly learn and adapt to new technologies.",
+    "Enthusiastic and detail-oriented Frontend Developer with over 5 years of experience in building and optimizing responsive web applications using modern JavaScript frameworks like React.js and Next.JS. Adept at designing performant, scalable, and user-focused solutions that drive engagement and meet business goals. \nProficient in agile methodologies, automated testing, and clean code principles. Known for collaborating effectively across teams and mentoring peers to achieve high-quality deliverables. Passionate about  leveraging technology to create seamless user experiences in fast-paced, dynamic environments",
   your_img_url: self,
 };
 
 const dataabout = {
   title: "abit about my self",
   aboutme:
-    "Frontend web developer and open-source enthusiast with good coding practices, Pair-programming and remote work. Fluent in several languages, frameworks, and technologies, capable of ramping up quickly and efficiently. A result-oriented Individual, astute with a solid Technical Operations background. Deep familiarity in ICT and digital forensics, with a passion for creating elegant and performant web applications. Fixed over 60 issues and Built over 5 web applications actively used in ZOJATECH Limited and Space Universe Africa.",
+    "Hello, my name is Michael Oni. I am a Frontend Developer with over 5 years of professional experience specializing in building responsive and high-performance web applications. My expertise includes JavaScript, React.js, and a range of modern frontend technologies. I also have experience in full-stack development, creating scalable systems, and collaborating with cross-functional teams to deliver impactful user experiences. \nThroughout my career, I have worked on projects across diverse industries, including telecommunications, technology, and advertising. I’ve contributed to improving user engagement and reducing operational downtime through innovative solutions, such as developing optimized UI components and automating workflows. \nIn terms of technical mastery, I bring extensive knowledge of frameworks like React Js, Next.js, Node.js, and Tailwind CSS, along with tools like Docker, Jest, and Azure DevOps. My skill set extends to backend technologies like Firebase, MongoDB, GraphQL and Java. \nBeyond my technical expertise, I value collaboration, flexibility, and mentorship. I thrive in agile environments and am passionate about problem-solving and continuous learning to stay at the forefront of technology.",
 };
 const worktimeline = [
   {
     jobtitle: "Software Engineer",
     where: "Space Universe Africa",
-    date: "2023 - Present",
+    date: "2023",
   },
   {
     jobtitle: "Software Engineer",
@@ -77,7 +77,6 @@ const certifications = [
     where: "https://lnkd.in/d-b7EA5R hashtag#entrepreneurship.",
     date: "December, 2023",
   },
- 
 ];
 
 const skills = [
@@ -98,8 +97,32 @@ const skills = [
     value: 90,
   },
   {
-    name: "Python",
+    name: "Docker",
+    value: 90,
+  },
+  {
+    name: "Node Js",
     value: 40,
+  },
+  {
+    name: "GraphQL",
+    value: 40,
+  },
+  {
+    name: "Postgress",
+    value: 50,
+  },
+  {
+    name: "MongoDB",
+    value: 40,
+  },
+  {
+    name: "Jest",
+    value: 60,
+  },
+  {
+    name: "Java",
+    value: 60,
   },
   {
     name: "HTML 5",
@@ -216,12 +239,12 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "onisamuelmichael@gmail.com",
-  YOUR_FONE: "(234) 7081575024",
+  YOUR_FONE: "(+351) 916 813 563",
   description:
     "Frontend web developer and open-source enthusiast with strong coding skills and experience in remote pair-programming ",
 
   YOUR_SERVICE_ID: "service_fltxe6e",
-  YOUR_TEMPLATE_ID: "contact_form",
+  YOUR_TEMPLATE_ID: "template_0meyst4",
   YOUR_USER_ID: "L5-LpNhHWcD1GGY7x",
 };
 
@@ -242,5 +265,5 @@ export {
   contactConfig,
   socialprofils,
   logotext,
-  certifications
+  certifications,
 };
